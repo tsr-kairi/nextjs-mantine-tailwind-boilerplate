@@ -1,12 +1,11 @@
-# next-mantine-tailwind-example
+# nextjs-mantine-tailwind-boilerplate-example
 
 This example is a demonstration of how to integrate Mantine and Tailwind CSS in a Next.js project without conflicts.
 
 > [!TIP]
-> The trick to make this work is give [Tailwind base lower priority with the @layer rule](https://github.com/PauliCZ44/MantineTW/blob/main/src/index.css).
+> The trick to make this work is give [Tailwind base lower priority with the @layer rule](https://github.com/tsr-kairi/nextjs-mantine-tailwind-boilerplate.git).
 
 > [!NOTE]  
-> If you are using Next.js Pages Router and Mantine v6, then switch to branch v1.
 
 ## Dependencies
 
@@ -39,6 +38,7 @@ pnpm add @mantine/core @mantine/hooks
 3. Copy and paste the following files and folders into your project:
 
 ```sh
+src/
 app/
   layout.tsx
 styles/
